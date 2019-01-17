@@ -15,4 +15,27 @@
      </script>
 </body>
 </html>
+Corrigé :
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Exercice 1</title>
+</head>
+<body>
+    <form>
+        <button type="button" name="button" id="clickMe">Clique-moi !</button>
+    </form>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Ajout d'un event click au bouton "clickMe" qui déclenche la fonction affichant une boite de dialogue
+            $("#clickMe").click(function () {
+                alert("coucou");
+            });
+        });
+    </script>
+</body>
+</html>
+
 
